@@ -6,10 +6,6 @@ provisioner:
   require_chef_omnibus: latest
 
 platforms:
-  - name: ubuntu-12.04
-    run_list:
-      - yum::default
-
   - name: centos-6.4
     run_list:
       - yum::default
